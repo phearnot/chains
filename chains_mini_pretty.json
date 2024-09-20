@@ -3466,9 +3466,9 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://mainnet.shape.network"],
   "faucets": [],
-  "infoURL": "https://shape.us"
+  "infoURL": "https://shape.network"
 }, {
   "name": "Theta Mainnet",
   "chainId": 361,
@@ -13649,6 +13649,19 @@
   "faucets": [],
   "infoURL": "https://dogelayer.org"
 }, {
+  "name": "arena-z-testnet",
+  "chainId": 9897,
+  "shortName": "arena-z-testnet",
+  "networkId": 9897,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.arena-z.t.raas.gelato.cloud", "wss://ws.arena-z.t.raas.gelato.cloud"],
+  "faucets": [],
+  "infoURL": "https://raas.gelato.network/rollups/details/public/arena-z-testnet"
+}, {
   "name": "Larissa Chain",
   "chainId": 9898,
   "shortName": "lrs",
@@ -19993,6 +20006,19 @@
   "faucets": [],
   "infoURL": "https://duckchain.io"
 }, {
+  "name": "Bethel Sydney",
+  "chainId": 202202,
+  "shortName": "bethel-sydney",
+  "networkId": 202202,
+  "nativeCurrency": {
+    "name": "Bethel",
+    "symbol": "BECX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-sydney.bethel.network"],
+  "faucets": ["https://faucet-sydney.bethel.network"],
+  "infoURL": ""
+}, {
   "name": "X1 Devnet",
   "chainId": 202212,
   "shortName": "x1-devnet",
@@ -21332,6 +21358,19 @@
   "faucets": [],
   "infoURL": "http://doc.eramscan.com/"
 }, {
+  "name": "TixChain Testnet",
+  "chainId": 723107,
+  "shortName": "tixchain",
+  "networkId": 723107,
+  "nativeCurrency": {
+    "name": "TIX Token",
+    "symbol": "TIX",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/tixchain/testnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://subnets-test.avax.network/tixchain/details"
+}, {
   "name": "Hemi Sepolia",
   "chainId": 743111,
   "shortName": "hemi-sep",
@@ -21500,6 +21539,19 @@
   "rpc": ["https://goerli.rpc.zklink.io", "wss://goerli.rpc.zklink.io"],
   "faucets": [],
   "infoURL": "https://zklink.io"
+}, {
+  "name": "SG Verse Mainnet",
+  "chainId": 812397,
+  "shortName": "SGV",
+  "networkId": 812397,
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.sgverse.net/"],
+  "faucets": [],
+  "infoURL": ""
 }, {
   "name": "TSC Testnet",
   "chainId": 820522,
@@ -21927,6 +21979,19 @@
     "decimals": 18
   },
   "rpc": ["https://automata-testnet.alt.technology"],
+  "faucets": [],
+  "infoURL": "https://ata.network"
+}, {
+  "name": "Automata Orbit Testnet",
+  "chainId": 1398244,
+  "shortName": "automataorbittestnet",
+  "networkId": 1398244,
+  "nativeCurrency": {
+    "name": "ATA",
+    "symbol": "ATA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-orbit-testnet.ata.network"],
   "faucets": [],
   "infoURL": "https://ata.network"
 }, {
