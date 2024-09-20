@@ -5589,6 +5589,32 @@
   "faucets": [],
   "infoURL": "https://www.ekta.io"
 }, {
+  "name": "LemonChainTestnet",
+  "chainId": 1005,
+  "shortName": "tlemx",
+  "networkId": 1005,
+  "nativeCurrency": {
+    "name": "testnet LEMX",
+    "symbol": "tLEMX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.lemonchain.io", "https://rpc.testnet.allthingslemon.io"],
+  "faucets": [],
+  "infoURL": "https://dapp.allthingslemon.io/home"
+}, {
+  "name": "LemonChain",
+  "chainId": 1006,
+  "shortName": "lemx",
+  "networkId": 1006,
+  "nativeCurrency": {
+    "name": "LEMX",
+    "symbol": "LEMX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.lemonchain.io", "https://rpc.allthingslemon.io"],
+  "faucets": [],
+  "infoURL": "https://dapp.allthingslemon.io/home"
+}, {
   "name": "Newton Testnet",
   "chainId": 1007,
   "shortName": "tnew",
@@ -19677,7 +19703,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.mainnet.taiko.xyz", "wss://ws.mainnet.taiko.xyz"],
+  "rpc": ["https://rpc.mainnet.taiko.xyz"],
   "faucets": [],
   "infoURL": "https://taiko.xyz"
 }, {

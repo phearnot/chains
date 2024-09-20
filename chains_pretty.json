@@ -9008,6 +9008,36 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "LemonChainTestnet",
+  "chain": "tLEMX",
+  "rpc": ["https://rpc.testnet.lemonchain.io", "https://rpc.testnet.allthingslemon.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "testnet LEMX",
+    "symbol": "tLEMX",
+    "decimals": 18
+  },
+  "infoURL": "https://dapp.allthingslemon.io/home",
+  "shortName": "tlemx",
+  "chainId": 1005,
+  "networkId": 1005,
+  "explorers": []
+}, {
+  "name": "LemonChain",
+  "chain": "LEMX",
+  "rpc": ["https://rpc.lemonchain.io", "https://rpc.allthingslemon.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "LEMX",
+    "symbol": "LEMX",
+    "decimals": 18
+  },
+  "infoURL": "https://dapp.allthingslemon.io/home",
+  "shortName": "lemx",
+  "chainId": 1006,
+  "networkId": 1006,
+  "explorers": []
+}, {
   "name": "Newton Testnet",
   "chain": "NEW",
   "rpc": ["https://rpc1.newchain.newtonproject.org"],
@@ -31970,7 +32000,7 @@
   "chain": "ETH",
   "status": "active",
   "icon": "taiko",
-  "rpc": ["https://rpc.mainnet.taiko.xyz", "wss://ws.mainnet.taiko.xyz"],
+  "rpc": ["https://rpc.mainnet.taiko.xyz"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
