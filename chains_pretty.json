@@ -4430,6 +4430,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Cronos zkEVM Testnet",
+  "chain": "CronosZkEVMTestnet",
+  "rpc": ["https://testnet.zkevm.cronos.org"],
+  "faucets": ["https://zkevm.cronos.org/faucet"],
+  "nativeCurrency": {
+    "name": "Cronos zkEVM Test Coin",
+    "symbol": "zkTCRO",
+    "decimals": 18
+  },
+  "infoURL": "https://docs-zkevm.cronos.org",
+  "shortName": "zkTCRO",
+  "chainId": 240,
+  "networkId": 240,
+  "slip44": 1,
+  "explorers": [{
+    "name": "Cronos zkEVM Testnet Explorer",
+    "url": "https://explorer.zkevm.cronos.org/testnet",
+    "standard": "none"
+  }]
+}, {
   "name": "Plinga Mainnet",
   "chain": "Plinga",
   "icon": "plinga",
@@ -4895,10 +4915,15 @@
   "chainId": 278,
   "networkId": 278
 }, {
-  "name": "BPX Blockchain",
+  "name": "BPX Chain",
   "chain": "BPX",
   "icon": "bpx",
-  "rpc": ["https://rpc.mainnet.bpxchain.cc", "https://bpx-dataseed.infinex.cc"],
+  "rpc": ["https://rpc.bpxchain.cc"],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
   "faucets": [],
   "nativeCurrency": {
     "name": "BPX",
@@ -4908,7 +4933,12 @@
   "infoURL": "https://bpxchain.cc",
   "shortName": "bpx",
   "chainId": 279,
-  "networkId": 279
+  "networkId": 279,
+  "explorers": [{
+    "name": "BPX Chain Block Explorer",
+    "url": "https://explorer.bpxchain.cc",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "zkSync Era Goerli Testnet (deprecated)",
   "status": "deprecated",
@@ -28047,8 +28077,8 @@
   "rpc": ["https://testnet.emerald.oasis.io/", "wss://testnet.emerald.oasis.io/ws"],
   "faucets": ["https://faucet.testnet.oasis.io/"],
   "nativeCurrency": {
-    "name": "Emerald Rose",
-    "symbol": "ROSE",
+    "name": "Emerald Test Rose",
+    "symbol": "TEST",
     "decimals": 18
   },
   "infoURL": "https://docs.oasis.io/dapp/emerald",

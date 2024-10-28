@@ -2820,6 +2820,19 @@
   "faucets": [],
   "infoURL": "https://docs.blastblockchain.com"
 }, {
+  "name": "Cronos zkEVM Testnet",
+  "chainId": 240,
+  "shortName": "zkTCRO",
+  "networkId": 240,
+  "nativeCurrency": {
+    "name": "Cronos zkEVM Test Coin",
+    "symbol": "zkTCRO",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.zkevm.cronos.org"],
+  "faucets": ["https://zkevm.cronos.org/faucet"],
+  "infoURL": "https://docs-zkevm.cronos.org"
+}, {
   "name": "Plinga Mainnet",
   "chainId": 242,
   "shortName": "plgchain",
@@ -3093,7 +3106,7 @@
   "faucets": [],
   "infoURL": "https://xfair.ai"
 }, {
-  "name": "BPX Blockchain",
+  "name": "BPX Chain",
   "chainId": 279,
   "shortName": "bpx",
   "networkId": 279,
@@ -3102,7 +3115,7 @@
     "symbol": "BPX",
     "decimals": 18
   },
-  "rpc": ["https://rpc.mainnet.bpxchain.cc", "https://bpx-dataseed.infinex.cc"],
+  "rpc": ["https://rpc.bpxchain.cc"],
   "faucets": [],
   "infoURL": "https://bpxchain.cc"
 }, {
@@ -17229,8 +17242,8 @@
   "shortName": "emerald-testnet",
   "networkId": 42261,
   "nativeCurrency": {
-    "name": "Emerald Rose",
-    "symbol": "ROSE",
+    "name": "Emerald Test Rose",
+    "symbol": "TEST",
     "decimals": 18
   },
   "rpc": ["https://testnet.emerald.oasis.io/", "wss://testnet.emerald.oasis.io/ws"],
